@@ -143,7 +143,7 @@ def save_e_img(n=3000, angle=None, name=None):
     # Note that images will (often enough) be bitwise identical if run with the
     # same parameters, so overwriting is okay.
     name = name if name != None else \
-        "e_a%1.5f_n%07d.png" % \
+        "samples/e_a%1.5f_n%07d.png" % \
         (angle if angle != None else walk_default_angle, n)
     fp = open(name, "w")
     img.save(fp, "png")
@@ -152,14 +152,14 @@ def save_e_img(n=3000, angle=None, name=None):
 
 
 def save_samples():
-    [save_e_img(n, angle * math.e if angle != None else None) \
+    [save_e_img(n, angle * math.pi if angle != None else None) \
         for angle in [1.0/10, 1.0/6, 1.0/5, 1.0/3, 1.0/2, 2.0/3, None, 179/180.0] \
         for n in [10, 30, 100, 300, 1000, 3000]]
     print "Done saving your samples :)"
 
 
 def save_samples_expensive():
-    [save_e_img(10000, angle * math.e if angle != None else None) \
+    [save_e_img(10000, angle * math.pi if angle != None else None) \
         for angle in [1.0/10, 1.0/6, 1.0/5, 1.0/3, 1.0/2, 2.0/3, None, 179/180.0]]
     print "Done saving your expensive samples :)"
 
@@ -168,7 +168,7 @@ def save_samples_expensive():
 
 def main():
     print "Writing lots of images ..."
-    save_samples()
+    save_samples_expensive()
 
 
 if __name__ == '__main__':

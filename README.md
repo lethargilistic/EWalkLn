@@ -15,7 +15,7 @@ behaves normally](https://en.wikipedia.org/wiki/Pi#Properties), the walk may
 stay reasonably close to the starting point.
 
 ![](samples/e_a0.27183_n0003000.png)
-(3k digits with angle 18°)
+(3k digits with angle 15.54°)
 
 Don't get me wrong, e *does* wander off considerably, but in relation
 to how far away it *could* go, it's not much.
@@ -33,10 +33,10 @@ README](https://github.com/BenWiederhake/PiWalkLn#why-the-fisheye).
 Thanks for asking! I want to show you even more images:
 
 ![](/samples/e_a1.35914_n0010000.png)
-(10k digits with angle 90°)
+(10k digits with angle 77.87°)
 
 ![](/samples/e_a0.27183_n0000030.png)
-(30 digits with angle 18°)
+(30 digits with angle 15.54°)
 
 For more samples, look at the `samples` folder. Or, hey, why don't you
 clone it and experiment yourself? Feel free to share awesome images by
