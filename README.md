@@ -14,8 +14,8 @@ fixed angle after each digit. As it is conjectured that one can [consider e
 behaves normally](https://en.wikipedia.org/wiki/Pi#Properties), the walk may
 stay reasonably close to the starting point.
 
-![](/samples/e_a0.90609_n0003000.png)
-(3k digits with angle 60°)
+![](samples/e_a0.27183_n0003000.png)
+(3k digits with angle 18°)
 
 Don't get me wrong, e *does* wander off considerably, but in relation
 to how far away it *could* go, it's not much.
